@@ -12,6 +12,8 @@ import KytosBaseWithIcon from '../../base/KytosBaseWithIcon.vue';
 
 export default {
   name: 'kytos-button',
+  introduction: "A basic example button.",
+  description: "A basic button with the ability to be flat, raised, or be a primary button. Nothing super special. (I stink at writing documentation.)",
   mixins: [KytosBaseWithIcon],
 }
 </script>

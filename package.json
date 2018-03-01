@@ -7,10 +7,12 @@
   "scripts": {
     "dev": " webpack-dev-server --open --hot --config webpack/webpack.dev.js",
     "prod": "webpack --progress --hide-modules --config webpack/webpack.prod.js",
-    "build": "npm run prod > /dev/null && zip -r latest.zip index.html dist"
+    "build": "npm run prod > /dev/null && zip -r latest.zip index.html dist",
+    "docs": "webpack-dev-server --open --hot --config webpack/webpack.docs.js"
   },
   "dependencies": {
     "d3": "^4.11.0",
+    "propdoc": "^0.9.3",
     "socket.io-client": "^2.0.4",
     "typeit": "^4.4.1",
     "v-hotkey": "^0.2.0",
